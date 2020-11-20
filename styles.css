@@ -163,6 +163,10 @@ h5 {
   margin: 10px auto;
 }
 
+p .leading {
+  text-align: center;
+}
+
 #contact {
   background: #080936;
   padding: 30px 20px;
@@ -187,6 +191,9 @@ h5 {
 form h5 {
   color: white;
   opacity: .6;
+}
+h4 img {
+  width: 20px;
 }
 
 footer {
