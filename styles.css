@@ -1,15 +1,20 @@
 /* variables */
 :root {
-  --primary: #FFC636;
-  --secondary: #0A0B5B;
+  --primary: #ffc636;
+  --secondary: #0a0b5b;
 }
 /* reset */
-body,p,a,ul,li {
+body,
+p,
+a,
+ul,
+li {
   margin: 0;
   padding: 0;
   text-decoration: none;
-} 
-html, body {
+}
+html,
+body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -33,14 +38,15 @@ body {
   padding: 6px 12px;
   border-radius: 20px;
   text-transform: uppercase;
-  box-shadow: 1px 2px 3px rgba(0,f0,0,0.6);
+  box-shadow: 1px 2px 3px rgba(0, f0, 0, 0.6);
   display: inline-block;
 }
 .button:hover {
   color: #222;
   background: var(--primary);
 }
-input, textarea {
+input,
+textarea {
   background: rgba(255, 255, 255, 0.05);
   padding: 10px 16px;
   border-radius: 20px;
@@ -49,17 +55,23 @@ input, textarea {
 }
 /* fonts */
 @font-face {
-  font-family: "Rubik";
+  font-family: 'Rubik';
   src: url('assets/fonts/Rubik-Regular.ttf');
 }
-h1,h2,h3,h4 {
-  color: #DDDBFF;
+h1,
+h2,
+h3,
+h4 {
+  color: #dddbff;
   font-weight: normal;
 }
-p,a,li {
-  color: #9893D8;
+p,
+a,
+li {
+  color: #9893d8;
 }
-h1,h3 {
+h1,
+h3 {
   font-size: 1.2em;
 }
 h2 {
@@ -69,7 +81,7 @@ h4 {
   font-size: 1.1em;
 }
 h5 {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
 }
 .leading {
@@ -135,7 +147,7 @@ h5 {
   display: flex;
   margin: 20px 0;
 }
-.projects a  * {
+.projects a * {
   max-width: 40%;
   margin: 0 20px;
   align-self: center;
@@ -149,9 +161,9 @@ h5 {
 
 #skills {
   padding: 30px 20px;
-  background: #07083E;
+  background: #07083e;
 }
-#skills h3{
+#skills h3 {
   text-align: center;
 }
 #skills ul {
@@ -159,7 +171,7 @@ h5 {
 }
 #skills li {
   grid-column: span 4;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
 }
@@ -167,7 +179,10 @@ h5 {
   height: 80px;
   margin: 10px auto;
 }
-
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
 p .leading {
   text-align: center;
 }
@@ -176,7 +191,8 @@ p .leading {
   background: #080936;
   padding: 30px 20px;
 }
-#contact h3, #contact p {
+#contact h3,
+#contact p {
   text-align: center;
   margin-bottom: 0;
 }
@@ -186,7 +202,8 @@ p .leading {
   margin: 20px auto;
   text-align: center;
 }
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
   margin: 10px 0;
 }
@@ -195,7 +212,7 @@ p .leading {
 }
 form h5 {
   color: white;
-  opacity: .6;
+  opacity: 0.6;
 }
 h4 img {
   width: 20px;
@@ -203,7 +220,7 @@ h4 img {
 
 footer {
   padding: 30px 20px;
-  background-color: #14153D;
+  background-color: #14153d;
   background-image: url(assets/footer_image.png);
   background-size: 40%;
   background-repeat: no-repeat;
@@ -257,7 +274,7 @@ footer img {
   .projects h4 {
     text-align: center;
   }
-  
+
   #skills {
     padding: 30px 100px;
   }
@@ -338,14 +355,16 @@ footer img {
   footer img {
     width: 25px;
   }
-
 }
 /* Desktop styles */
-@media screen and (min-width: 1200px ) {
+@media screen and (min-width: 1200px) {
   body {
     font-size: 20px;
   }
-  #welcome, #portfolio, #skills, #contact {
+  #welcome,
+  #portfolio,
+  #skills,
+  #contact {
     padding: 90px 0;
   }
   .projects a:nth-child(1) {
@@ -360,11 +379,10 @@ footer img {
     margin: 30px 0;
   }
   footer {
-  padding: 80px 0;    
-  background-size: 30%;
+    padding: 80px 0;
+    background-size: 30%;
   }
   footer img {
     width: 30px;
   }
 }
-
